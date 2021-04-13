@@ -1,0 +1,89 @@
+.more p, .mailbox, .logo {
+  text-align: center;
+}
+
+form {
+  border: 1px solid #9B9DA1;
+  height: 500px;
+  width: 35%;
+  position: relative;
+  top: 20px;
+  left: 30%;
+  border-radius: 5px;
+}
+
+.logo {
+  padding-top: 50px;
+  margin-bottom: 0px;
+}
+.logo h4 {
+  font-size: large;
+  margin-bottom: 0px;
+}
+
+.mailbox input {
+  height: 50px;
+  width: 85%;
+  border: 1px solid #9B9DA1;
+  border-radius: 5px;
+}
+
+#forgot {
+  margin-left: 30px;
+  margin-top: 5px;
+}
+#forgot a {
+  text-decoration: none;
+}
+
+.more p {
+  margin-top: 50px;
+  margin-right: 22px;
+  color: #9B9DA1;
+}
+.more p span a {
+  text-decoration: none;
+  margin-right: 286px;
+}
+
+.submitarea {
+  display: inline-flex;
+  padding-left: 0px;
+}
+.submitarea p {
+  padding-top: 10px;
+  margin-left: 35px;
+  color: #084FB7;
+}
+.submitarea #button {
+  background-color: #084FB7;
+  border: none;
+  height: 35px;
+  width: 70px;
+  color: white;
+  margin-left: 220px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+footer {
+  display: inline-flex;
+  margin-left: 382px;
+  margin-top: 30px;
+}
+footer .right {
+  margin-left: 85px;
+  color: dark;
+}
+footer .right li {
+  display: inline-flex;
+  list-style: none;
+  margin: 15px;
+  color: dark;
+}
+footer #language {
+  border: none;
+  background-color: white;
+}
+
+/*# sourceMappingURL=style.css.map */

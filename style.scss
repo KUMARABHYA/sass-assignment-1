@@ -1,0 +1,118 @@
+@import "variables";
+
+
+%set-padding{
+    text-align: center;
+   
+
+}
+form{
+    border: $border;
+    height: 500px;
+    width: 35%;
+    position: relative;
+    top: 20px;
+    left: 30%;
+    border-radius: $radius;
+  
+    
+}
+
+.logo{
+    @extend %set-padding;
+    padding-top: 50px;
+    margin-bottom: 0px;
+    h4{
+   font-size: large;
+    margin-bottom: 0px
+    
+    }
+  
+    
+}
+
+.mailbox{
+    @extend %set-padding;
+    
+    input{
+    height: 50px;
+    width: 85%; 
+    border:$border; 
+    border-radius: $radius; 
+    }
+}
+
+#forgot{
+    margin-left: 30px;
+    margin-top: 5px;
+
+    a{text-decoration: none;
+
+    }
+}
+
+.more{
+   p{
+    @extend %set-padding;
+    margin-top: 50px;
+    margin-right: 22px;
+    color:$dark;
+
+  
+   span{
+       a{
+        text-decoration: none;
+        margin-right: 286px;
+       
+       
+       }
+   }
+}
+
+}
+
+.submitarea{
+    
+    display: inline-flex;
+    padding-left: 0px;
+   p{
+      padding-top: 10px;
+      margin-left: 35px;
+       color: $primary;
+   }
+
+   #button{
+       background-color: $primary;
+       border: none;
+       height: 35px;
+       width: 70px;
+       color: $light;
+       margin-left: 220px;
+       margin-top: 20px;
+       border-radius: 5px;
+   }
+   
+}
+
+footer{
+    display: inline-flex;
+    margin-left: 382px;
+    margin-top: 30px;
+    .right{
+        margin-left: 85px;
+        color: dark;
+        li{
+            display: inline-flex;
+        list-style: none;
+        
+        margin: 15px;
+        color: dark;
+        }
+        
+        
+    }
+    #language{
+        border: none;
+        background-color: $light;
+    }
+}
